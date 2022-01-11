@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+   btn {
+    cursor: hand;
+    border: 1px solid #CCEBAF;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 1.25em;
+    color: #CCEBAF;
+    box-shadow: 0 6px 6px rgba(0 0 0 0.6);
+
+   }
+  </style>
+  </head>
+   <body>
+      <table border = 1>
+         <thead>
+            <td>Locate</td>
+            <td>Title</td>
+            <td>Narrative</td>
+            <td>Price</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td><button class="btn" id={{row["id"]}}>&#x2728</button>
+               <td>{{row["title"]}}</td>
+               <td> {{ row["narrative"]}}</td>
+               <td>{{row['price']}}</td>	
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+   </body>
+</html>
