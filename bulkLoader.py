@@ -12,7 +12,7 @@ If you are rerunning this Python file, you can uncomment the Drop table
 and refresh the table by creating it again.
 '''
 #conn.execute('DROP TABLE items')
-conn.execute('CREATE TABLE items (id TEXT, title TEXT, location TEXT, artist TEXT, price REAL)')
+#conn.execute('CREATE TABLE items (id INTEGER PRIMARY KEY, title TEXT,location TEXT, artist TEXT, price REAL, img TEXT, narrative TEXT)')
 print ("Table created successfully")
 conn.close()
 
@@ -38,9 +38,10 @@ class CRUD:
         self.cur = self.conn.cursor()
         
     def _create(self,store, k, v ):
+        id = xtract(v[0],v[2])
         try:
-            self.cur.execute("INSERT INTO items(id,title,location,artist,price) VALUES (?,?,?,?,?)",
-                (k,v[0],v[1],v[2],v[3]) )
+            self.cur.execute("INSERT INTO items(title,location,artist,price,img) VALUES (?,?,?,?,?)",
+                (k,v[0],v[1],v[2],v[3],id) )
             
             self.conn.commit()
             print("Record successfully added")
@@ -57,7 +58,11 @@ class CRUD:
         print(rows)
         self.conn.close()
         
-        
+def xtract(title,artist):
+  a = ''.join(wrd[0] for wrd in artist.split())
+  t = (''.join(wrd[0] for wrd in title.split()) )
+  return a+t
+
 def addrecs(dbname,tblname, datafile, bulk_id):
     D = defaultdict(list)    
     with FileReader(datafile) as file_handle:
