@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+         <thead>
+            <td>Comment</td>
+            <td>Title</td>
+            <td>Location</td>
+            <td>Price</td>
+         </thead>
+         {% for row in rows %}
+            <tr>
+              <td>{{row["archivecmt"]}}</td>
+               <td>{{row["title"]}}</td>
+               <td> {{ row["location"]}}</td>
+               <td>{{row['price']}}</td>	
+            </tr>
+         {% endfor %}
+      </table>
+      <a href = "/">Go back to home page</a>
+
+   </body>
+</html>
