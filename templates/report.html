@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
    <body>
+      result : <bold>{{ msg }}<bold>
       <table border = 1>
          {% for key, value in report.items() %}
             <tr>
@@ -9,7 +10,6 @@
             </tr>
          {% endfor %}
       </table>
-      result of addition : {{ msg }}
       <h2><a href = "\">go back to home page</a></h2>
    </body>
 </html>
