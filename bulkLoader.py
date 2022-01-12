@@ -38,13 +38,13 @@ class CRUD:
         self.cur = self.conn.cursor()
         
     def _create(self,store, k, v ):
-        id = xtract(v[0],v[2])
+        img = xtract(v[0],v[2])
         try:
             self.cur.execute("INSERT INTO items(title,location,artist,price,img) VALUES (?,?,?,?,?)",
-                (k,v[0],v[1],v[2],v[3],id) )
+                (v[0],v[1],v[2],v[3],img) )
             
             self.conn.commit()
-            print("Record successfully added")
+            print(k,"Record successfully added")
         except:
             self.conn.rollback()
             print("error in insert operation")
@@ -70,7 +70,7 @@ def addrecs(dbname,tblname, datafile, bulk_id):
             key = bulk_id+str(i)
             for data in s.split(sep=','):
                 D[key].append(data) 
-            D[key].append(0)
+            D[key].append(0)    # adding price as 0.0 for all items, can be edited on web app
     S = CRUD(dbname)
     for k,v in D.items(): S._create(tblname,k,v)
     S.conn.close()
