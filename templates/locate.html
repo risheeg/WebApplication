@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<body>
+  result : {{ msg }}
+
+  {% for row in rows %}
+    <form action = "{{ url_for('removerec') }}" method = "POST">
+    <input type="hidden" id="itemId" name="Id" value = {{row["id"]}}>
+    Comment Log: <textarea name = "cmt" ></textarea>  
+    <button type="submit" }>Delete Item From Inventory</button>
+    </form></br>
+    <p> {{ row["title"]}}, By {{ row["artist"]}}
+    <p> {{ row["location"]}}
+    <p> {{ row["narrative"]}}
+    <br></br>
+    Edit/Update Location<br>
+        <form action = "{{ url_for('editrec') }}" method = "POST">
+          <input type="hidden" id="itemId" name="Id" value={{row["id"]}}>
+          <input type = "text" name = "loc" placeholder={{ row["location"]}}>
+          <button type="submit" }>Save</button>
+        </form></br>
+    
+    Edit/Update Price<br>
+        <form action = "{{ url_for('editrec') }}" method = "POST">
+          <input type="hidden" id="itemId" name="Id" value={{row["id"]}}>
+          <input type = "text" name = "amt" placeholder={{ row["price"]}}>
+          <button type="submit" }>Save</button>
+        </form></br>
+      
+    Edit/Update Description<br>
+        <form action = "{{ url_for('editrec') }}" method = "POST">
+          <input type="hidden" id="itemId" name="Id" value={{row["id"]}}>
+          <textarea name = "add" placeholder={{ row["narrative"]}}></textarea>
+          <button type="submit" }>Save</button>
+        </form></br>
+  {% endfor %}
+      
+  
+  <h2><a href = "\">go back to home page</a></h2>
+  
+</body>
+</html>
