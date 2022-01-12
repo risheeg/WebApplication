@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+   <body>
+      result : {{ msg }}
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         {% for row in rows %}
+          <input type = "hidden" value='{{ row["title"] }}' name = "nm" />
+          <input type = "hidden" value='{{ row["location"] }}'' name = "loc"/>
+          <input type="hidden" value='{{ row["artist"] }}' name="artist"/>
+          <input type = "hidden" name = "amt" value={{ row["price"] }}>
+          <input type = "submit" value = "Restore/Undelete" /><br>
+         {% endfor %}
+      </form>
+      <table border = 1>
+         {% for key, value in report.items() %}
+            <tr><td> {{ key }} </td><td> {{ value }} </td></tr>
+         {% endfor %}
+         <form action = "{{ url_for('archiverec') }}" method = "POST">
+         {% for row in rows %}
+          <p> {{ row["title"] }} By {{ row["artist"] }}
+          <p> {{ row["location"] }}
+          <input type = "hidden" value='{{ report["cmt"] }}' name = "cmt" />
+          <input type = "hidden" value='{{ row["title"] }}' name = "nm" />
+          <input type = "hidden" value='{{ row["location"] }}'' name = "loc"/>
+          <input type="hidden" value='{{ row["artist"] }}' name="artist"/>
+          <input type = "hidden" name = "amt" value={{ row["price"] }}>
+          <input type="hidden" value='{{ row["img"] }}' name="img"/>
+          <input type="hidden" value='{{ row["narrative"] }}' name="add"/>
+          <input type = "submit" value = "Archive this Item" /><br>
+         {% endfor %}
+         </form>
+      </table>
+
+      <h2><a href = "\">go back to home page</a></h2>
+
+      
+   </body>
+</html>
