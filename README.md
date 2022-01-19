@@ -29,7 +29,7 @@ Alternatively, in your own python environment, you can use pip installer for Fla
 - Flask configuration: The application is configured as a minimal crud application so I have not distributed the functionality to different python files.  All of the functionality is in main.py except for the html template pages as they are lengthy enough to be separated. Any styling/css of web page is maintained in the html page itself.
 - SQLite configuration: main.py has db connectivity code also available at the start of the page. However, it needs to be run for create tables only one time.  I have also cretaed an option to insert all the sample records provided in BulkLoader/data/locations.csv. A bulkloader.py uses the python code to read the csv file and execute inserts for every item record. Table can be dropped and recreated by uncommenting the appropriate execute statements that are creating the two tables ITEMS and ARCHIVEDITEMS if you no longer want the sample records, and clean up the inserted records.
 - Avoid errors: Ensure Databse tables items, archiveditems have been created with specific column names if you are administering the database seaparately, or using Bulkloader functionality to create the table ITEMS.
-<img width="800" height="600" align="center" src="demoimages/AppFiles.JPG">
+<img width="800" height="600" align="center" src="demoimages/AppFiles.jpg">
 
 </BR></BR>
 # Part3-  Future Version: 
