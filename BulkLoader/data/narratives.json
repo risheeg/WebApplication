@@ -1,22 +1,71 @@
-[{"The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village."},
-{"The Persistence of Memory is a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism. First shown at the Julien Levy Gallery in 1932, since 1934 the painting has been in the collection of the Museum of Modern Art in New York City, which received it from an anonymous donor."},
-{"Impression, Sunrise is a painting by Claude Monet first shown at what would become known as the "Exhibition of the Impressionists" in Paris in April, 1874. The painting is credited with inspiring the name of the Impressionist movement. Impression, Sunrise depicts the port of Le Havre, Monet's hometown."},
-{"Café Terrace at Night is an 1888 oil painting by the Dutch artist Vincent van Gogh. It is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening. Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888."},
-{"The Lady with an Ermine is a portrait painting widely attributed to the Italian Renaissance artist Leonardo da Vinci. Dated to c. 1489–1491, the work is painted in oils on a panel of walnut wood."},
-{"Bal du moulin de la Galette is an 1876 painting by French artist Pierre-Auguste Renoir. It is housed at the Musée d'Orsay in Paris and is one of Impressionism's most celebrated masterpieces. The painting depicts a typical Sunday afternoon at the original Moulin de la Galette in the district of Montmartre in Paris."}
-{"Dutch Post-Impressionist painter Vincent van Gogh painted a self-portrait in oil on canvas in September 1889. The work, which may have been Van Gogh's last self-portrait, was painted shortly before he left Saint-Rémy-de-Provence in southern France. The painting is now at the Musée d'Orsay in Paris."},
-{"Portrait of Adele Bloch-Bauer I is a painting by Gustav Klimt, completed between 1903 and 1907. The portrait was commissioned by the sitter's husband, Ferdinand Bloch-Bauer, a Jewish banker and sugar producer. The painting was stolen by the Nazis in 1941 and displayed at the Österreichische Galerie Belvedere."},
-{"The School of Athens is a fresco by the Italian Renaissance artist Raphael. It was painted between 1509 and 1511 as a part of Raphael's commission to decorate the rooms now known as the Stanze di Raffaello, in the Apostolic Palace in the Vatican."
-"I and the Village is an oil on canvas painting by the Belarusian-French artist Marc Chagall created in 1911. It is exhibited at the Museum of Modern Art, New York. The work is Cubist in construction and contains many soft, dreamlike images overlapping one another in a continuous space."},
-{"Starry Night, commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time."},
-{"Luncheon of the Boating Party is a painting by French impressionist Pierre-Auguste Renoir. Included in the Seventh Impressionist Exhibition in 1882, it was identified as the best painting in the show by three critics."},
-{"Irises is one of several paintings of irises by the Dutch artist Vincent van Gogh, and one of a series of paintings he made at the Saint Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France, in the last year before his death in 1890."},
-{"The Night Café is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles. Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut."},
-{"Flaming June is a painting by Sir Frederic Leighton, produced in 1895. Painted with oil paints on a 47-by-47-inch square canvas, it is widely considered to be Leighton's magnum opus, showing his classicist nature."},
-{"View of Toledo by El Greco can be found in the Metropolitan Museum of Art in New York City. It is among the best known depictions of the sky in Western art, along with Vincent van Gogh's The Starry Night and the landscapes of J. M. W. Turner and Claude Monet. In his essay, art historian Keith Christiansen claims that View of Toledo is one of El Greco's masterpieces"},
-{"Young Hare is a 1502 watercolour and bodycolour painting by German artist Albrecht Dürer. Painted in 1502 in his workshop, it is acknowledged as a masterpiece of observational art alongside his Great Piece of Turf from the following year."},
-{"The Wedding Feast at Cana, by Paolo Veronese, is a representational painting that depicts the biblical story of the Marriage at Cana, at which Jesus miraculously converts water into red wine."},
-{"The Red Vineyards near Arles is an oil painting by the Dutch painter Vincent van Gogh, executed on a privately primed Toile de 30 piece of burlap in early November 1888. It depicts workers in a vineyard, and is believed to be the only painting known by name that van Gogh sold during his lifetime."},
-{"Composition VIII, produced in 1923 by Russian artist Wassily Kandinsky, is an oil-on-canvas painting created in the Abstract style. The painting consists of a variety of geometric shapes, colours, straight and curved lines set against a background of cream that melds at certain points into areas of pale blue."},
-{"Almond Blossoms is a group of several paintings made in 1888 and 1890 by Vincent van Gogh in Arles and Saint-Rémy, southern France of blossoming almond trees. Flowering trees were special to van Gogh. They represented awakening and hope. He enjoyed them aesthetically and found joy in painting flowering trees."},
-{"The Milkmaid, sometimes called The Kitchen Maid, is an oil-on-canvas painting of a "milkmaid", in fact, a domestic kitchen maid, by the Dutch artist Johannes Vermeer. It is now in the Rijksmuseum in Amsterdam, the Netherlands, which regards it as unquestionably one of the museum's finest attractions."}]
+{"famous": [
+    {
+    "imgfile"   :"VvGTSN", "narrative" :"The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village."
+    },
+    {
+    "imgfile"   :"SDTP", "narrative" :"The Persistence of Memory is a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism. First shown at the Julien Levy Gallery in 1932, since 1934 the painting has been in the collection of the Museum of Modern Art in New York City, which received it from an anonymous donor."
+    },
+    {
+    "imgfile"   :"CMIS",    "narrative" :"Impression, Sunrise is a painting by Claude Monet first shown at what would become known as the Exhibition of the Impressionists in Paris in April, 1874. The painting is credited with inspiring the name of the Impressionist movement. Impression, Sunrise depicts the port of Le Havre, Monets hometown."
+    },
+    {
+    "imgfile"  :"VvGCTaN",  "narrative":"Café Terrace at Night is an 1888 oil painting by the Dutch artist Vincent van Gogh. It is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening. Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888."
+    },
+    {
+    "imgfile"   :"LVTLwaE", "narrative" :"The Lady with an Ermine is a portrait painting widely attributed to the Italian Renaissance artist Leonardo da Vinci. Dated to c. 1489–1491, the work is painted in oils on a panel of walnut wood."
+    },
+    {
+    "imgfile"   :"PARBddlG", "narrative" :"Bal du moulin de la Galette is an 1876 painting by French artist Pierre-Auguste Renoir. It is housed at the Musée dOrsay in Paris and is one of Impressionisms most celebrated masterpieces. The painting depicts a typical Sunday afternoon at the original Moulin de la Galette in the district of Montmartre in Paris."
+    },
+    {
+    "imgfile"   :"VvGSP", "narrative" :"Dutch Post-Impressionist painter Vincent van Gogh painted a self-portrait in oil on canvas in September 1889. The work, which may have been Van Goghs last self-portrait, was painted shortly before he left Saint-Rémy-de-Provence in southern France. The painting is now at the Musée dOrsay in Paris."
+    },
+    {
+    "imgfile"   :"GKPoABB", "narrative" :"Portrait of Adele Bloch-Bauer I is a painting by Gustav Klimt, completed between 1903 and 1907. The portrait was commissioned by the sitters husband, Ferdinand Bloch-Bauer, a Jewish banker and sugar producer. The painting was stolen by the Nazis in 1941 and displayed at the Österreichische Galerie Belvedere."
+    },
+    {
+    "imgfile"   : "RTSoA", "narrative" :"The School of Athens is a fresco by the Italian Renaissance artist Raphael. It was painted between 1509 and 1511 as a part of Raphaels commission to decorate the rooms now known as the Stanze di Raffaello, in the Apostolic Palace in the Vatican."
+    },
+    {
+    "imgfile"   :"MCIatV", "narrative" :"I and the Village is an oil on canvas painting by the Belarusian-French artist Marc Chagall created in 1911. It is exhibited at the Museum of Modern Art, New York. The work is Cubist in construction and contains many soft, dreamlike images overlapping one another in a continuous space."
+    },
+    {
+    "imgfile"   :"VvGSNotR", "narrative" :"Starry Night, commonly known as Starry Night Over the Rhône, is one of Vincent van Goghs paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time."
+    },
+    {
+    "imgfile"   :"PARLotBP", "narrative" :"Luncheon of the Boating Party is a painting by French impressionist Pierre-Auguste Renoir. Included in the Seventh Impressionist Exhibition in 1882, it was identified as the best painting in the show by three critics."
+    },
+    {
+    "imgfile"   :"VvGI", "narrative" :"Irises is one of several paintings of irises by the Dutch artist Vincent van Gogh, and one of a series of paintings he made at the Saint Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France, in the last year before his death in 1890."
+    },
+    {
+    "imgfile"   :"VvGTNC", "narrative" :"The Night Café is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles. Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut."
+    },
+    {
+    "imgfile"   :"FLFJ", "narrative" :"Flaming June is a painting by Sir Frederic Leighton, produced in 1895. Painted with oil paints on a 47-by-47-inch square canvas, it is widely considered to be Leightons magnum opus, showing his classicist nature."
+    },
+    {
+    "imgfile"   :"EGVoT", "narrative" :"View of Toledo by El Greco can be found in the Metropolitan Museum of Art in New York City. It is among the best known depictions of the sky in Western art, along with Vincent van Goghs The Starry Night and the landscapes of J. M. W. Turner and Claude Monet. In his essay, art historian Keith Christiansen claims that View of Toledo is one of El Grecos masterpieces."
+    },
+    {
+    "imgfile"   :"ADYH", "narrative" :"Young Hare is a 1502 watercolour and bodycolour painting by German artist Albrecht Dürer. Painted in 1502 in his workshop, it is acknowledged as a masterpiece of observational art alongside his Great Piece of Turf from the following year."
+    },
+    {
+    "imgfile"   :"PVTWFaC", "narrative" :"The Wedding Feast at Cana, by Paolo Veronese, is a representational painting that depicts the biblical story of the Marriage at Cana, at which Jesus miraculously converts water into red wine."
+    },
+    {
+    "imgfile"   :"VvGTRV", "narrative" :"The Red Vineyards near Arles is an oil painting by the Dutch painter Vincent van Gogh, executed on a privately primed Toile de 30 piece of burlap in early November 1888. It depicts workers in a vineyard, and is believed to be the only painting known by name that van Gogh sold during his lifetime."
+    },
+    {
+    "imgfile"   :"WKCV", "narrative" :"Composition VIII, produced in 1923 by Russian artist Wassily Kandinsky, is an oil-on-canvas painting created in the Abstract style. The painting consists of a variety of geometric shapes, colours, straight and curved lines set against a background of cream that melds at certain points into areas of pale blue."
+    },
+    {
+    "imgfile"   :"VvGAB", "narrative" :"Almond Blossoms is a group of several paintings made in 1888 and 1890 by Vincent van Gogh in Arles and Saint-Rémy, southern France of blossoming almond trees. Flowering trees were special to van Gogh. They represented awakening and hope. He enjoyed them aesthetically and found joy in painting flowering trees."
+    },
+    {
+    "imgfile"   :"JVT", "narrative" :"The Milkmaid, sometimes called The Kitchen Maid, is an oil-on-canvas painting of a milkmaid, in fact, a domestic kitchen maid, by the Dutch artist Johannes Vermeer. It is now in the Rijksmuseum in Amsterdam, the Netherlands, which regards it as unquestionably one of the museums finest attractions."
+    }
+    ]
+}
+              
+
