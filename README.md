@@ -20,8 +20,9 @@ from the web pages.
 </BR></BR>
 
 # Part2- Technology Stack
-Using Flask framework for url routes/functions, and using plain HTML and some css for view templates.
-The persistence store tables are created using the inbuilt 'SQLite' in python as relational tables and SQL queries are executed from the ptython program. 
+Using Flask framework for url routes/functions, and using plain HTML and some css for view templates. Flask framework has render_templates function, and also the function to process the parameters obtained from HTTP POST, and GET requests.  
+
+The persistence store tables are created using the inbuilt 'SQLite' in python as relational tables and SQL queries are executed from the python program. 
 
 ## Server Configurations for Build:
 I am utilizing the preconfigured environment for python on repl site (https://replit.com/) to demo my application. You will need to create a free account. 
@@ -50,6 +51,7 @@ Alternatively, in your own python environment, you can use pip installer for Fla
 </BR></BR>
 ## Future Version: 
 I plan to add json narratives, and item images to the data store, as well to the web application.
+The json object will have a { id: ImageLocation:  ImageNarrative: }
 
 
 
